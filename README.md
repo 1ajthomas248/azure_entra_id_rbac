@@ -69,7 +69,7 @@ Repeat:
 - Add lab-operator → rg-contributors
 
 ## Part 3: Create a Target Resource Group
-###Step 6: Create Resource Group
+### Step 6: Create Resource Group
 
 - Resource groups → Create
 
@@ -80,7 +80,7 @@ Repeat:
 - Create
 
 ## Part 4: Assign RBAC Roles (The Core)
-###Step 7: Assign Reader Role
+### Step 7: Assign Reader Role
 
 - Go to Resource groups → rg-entra-rbac-lab
 
@@ -102,8 +102,8 @@ Repeat:
 
 - Assign to: rg-contributors
 
-##Part 5: Validate Permissions
-###Step 9: Sign in as lab-reader
+## Part 5: Validate Permissions
+### Step 9: Sign in as lab-reader
 
 - Open Incognito/Private window
 
@@ -121,7 +121,7 @@ Test actions
 
 - Try to delete RG → ❌ Denied
 
-###Step 10: Sign in as lab-operator
+### Step 10: Sign in as lab-operator
 
 - Repeat in a new private window.
 
