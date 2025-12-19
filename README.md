@@ -66,6 +66,8 @@ Repeat:
 
 - Group name: rg-contributors
 
+<img width="512" height="288" alt="image" src="https://github.com/user-attachments/assets/d5c03ad0-82d2-4f78-8f90-d2fedbc6736d" />
+
 ### Step 5: Assign Users to Groups
 
 - Add lab-reader → rg-readers
