@@ -37,6 +37,8 @@ This lab focuses on **authorization** and serves as a foundational identity and 
 
 - Create
 
+<img width="512" height="288" alt="image" src="https://github.com/user-attachments/assets/94d15e14-5a43-453c-948a-0d4ae374a66a" />
+
 ### Step 3: Create User 2 (Admin-like)
 
 - Name: lab-contributor
@@ -81,6 +83,8 @@ Repeat:
 
 - Create
 
+<img width="512" height="288" alt="image" src="https://github.com/user-attachments/assets/5080569c-daa3-48c0-9ee9-1a9a531de6bd" />
+
 ## Part 4: Assign RBAC Roles (The Core)
 ### Step 7: Assign Reader Role
 
@@ -95,6 +99,10 @@ Repeat:
 - Select: rg-readers
 
 - Assign
+
+<img width="512" height="288" alt="image" src="https://github.com/user-attachments/assets/8608d2b7-3d4a-40ef-ace2-637d1968ea8f" />
+
+<img width="512" height="288" alt="image" src="https://github.com/user-attachments/assets/7d5a5b1b-ef8b-4d57-9ad1-6c82216eb9fd" />
 
 ### Step 8: Assign Contributor Role
 
@@ -113,15 +121,15 @@ Repeat:
 
 - Navigate to Azure Portal
 
-- Open rg-entra-rbac-lab
-
 Test actions
 
-- View resources → ✅ Allowed
-
-- Try to create a VM → ❌ Denied
+- Try to create a resource → ❌ Denied
 
 - Try to delete RG → ❌ Denied
+
+<img width="512" height="288" alt="image" src="https://github.com/user-attachments/assets/8ad68b8d-7f61-43f4-b98e-bc3ce13a6b8b" />
+
+<img width="512" height="288" alt="image" src="https://github.com/user-attachments/assets/3f49ce25-a1ef-4101-a9db-b07c4da84cd0" />
 
 ### Step 10: Sign in as lab-operator
 
@@ -133,4 +141,10 @@ Test actions
 
 - Delete resource → ✅ Allowed
 
-- Modify settings → ✅ Allowed
+<img width="512" height="288" alt="image" src="https://github.com/user-attachments/assets/b1c42b8d-4c04-4461-be3e-5f62340636b4" />
+
+<img width="512" height="288" alt="image" src="https://github.com/user-attachments/assets/1f512da3-2f63-4aec-9f65-1f66953087f9" />
+
+## Conclusion and Takeways
+
+This lab reinforced the importance of separating identity from authorization and managing access through group-based RBAC rather than individual user assignments. Assigning roles at the resource-group scope demonstrated how least-privilege access can be enforced while still allowing users to perform their required tasks. Validating permissions through real sign-ins highlighted how clearly Azure distinguishes between Reader and Contributor capabilities and emphasized the need to test access rather than assume configuration correctness. Overall, this lab mirrored real enterprise access control patterns and established a strong foundation for implementing more advanced identity and security controls such as Conditional Access and Privileged Identity Management.
