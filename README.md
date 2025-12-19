@@ -23,6 +23,8 @@ This lab focuses on **authorization** and serves as a foundational identity and 
 
 - Go to Users → New user → Create new user
 
+<img width="512" height="288" alt="image" src="https://github.com/user-attachments/assets/6ad41678-a098-4b0e-8576-b774f7bf3625" />
+
 ### Step 2: Create User 1 (Read-only)
 
 - Name: lab-reader
