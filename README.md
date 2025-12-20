@@ -16,6 +16,26 @@ This lab focuses on **authorization** and serves as a foundational identity and 
 
 ---
 
+### Architecture
+- Azure Entra ID used as the centralized identity provider
+- Entra ID users created to represent individual identities
+- Entra ID security groups used to manage access at scale
+- Azure subscriptions and resource groups used as authorization scopes
+- Azure Role-Based Access Control (RBAC) enforcing permissions
+- Built-in RBAC roles assigned at the resource group level
+- Access evaluated based on least-privilege principles
+
+---
+
+### Technologies Used
+- Microsoft Azure
+- Azure Entra ID
+- Azure Role-Based Access Control (RBAC)
+- Azure Resource Groups
+- Azure Portal
+
+---
+
 ## Part 1: Create Test Users (Entra ID)
 ### Step 1: Open Entra ID
 
